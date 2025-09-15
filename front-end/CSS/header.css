@@ -1,0 +1,11 @@
+header {
+    background-color: var(--lightBlue);
+    padding: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

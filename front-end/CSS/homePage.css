@@ -1,0 +1,10 @@
+main {
+    padding: 2%;
+}
+
+#top-animations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5%;
+}

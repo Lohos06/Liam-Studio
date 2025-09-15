@@ -1,10 +1,20 @@
 header {
-    background-color: var(--lightBlue);
+    background-image: url(../assets/channel_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    color: var(--lightBlue);
+
+    height: 238px;
     padding: 25px;
-    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    align-items: center;
 }
 
 nav {
+    width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-between;

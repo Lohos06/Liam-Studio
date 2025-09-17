@@ -7,6 +7,14 @@ footer {
     align-items: center;
 }
 
+.social-network {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
 .logos {
-    width: 150px;
+    width: 5rem;
 }

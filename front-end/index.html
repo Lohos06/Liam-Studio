@@ -1,28 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="CSS/root.css">
+    <link rel="stylesheet" href="CSS/font.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/homePage.css">
     <link rel="stylesheet" href="CSS/footer.css">
 
-    <meta name="description" content="Presentation des animations realisés par Liam Studio">
+    <meta name="description" content="Decouvrez les animations de Liam Studio">
     <title>Home Page</title>
 </head>
 <body>
     <header>
         <nav>
             <h1>Liam Studio</h1>
-            <a href="">Contactez-nous</a>
+            <a href="#">Contactez-nous</a>
         </nav>
     </header>
     <main>
         <section>
             <h2>Qui sommes nous ?</h2>
-            <p>Lorem Ipsum</p>
+
+            <div class="paragraph">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non justo justo. 
+                    Vestibulum euismod sem et erat pellentesque, sit amet lacinia augue ullamcorper. 
+                    Ut nunc tellus, gravida a finibus ac, malesuada ac justo. 
+                    Morbi id ex vitae dui ultricies feugiat. 
+                    Vivamus justo risus, iaculis vel commodo vitae, interdum sit amet purus. 
+                    Pellentesque vestibulum et tortor vitae viverra. 
+                    Etiam nisl tellus, viverra at lectus eget, auctor porta justo. 
+                    Fusce varius volutpat dolor ut aliquam. 
+                    Suspendisse aliquam ex est, maximus luctus orci iaculis ut. 
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Nulla nisl leo, malesuada non tristique at, malesuada a ipsum. Ut et volutpat mi, nec ultrices purus. 
+                    Donec rhoncus ligula nec facilisis laoreet. 
+                    Praesent ut quam eu justo molestie tincidunt et et lorem. 
+                    Morbi eu dui eu tellus porta molestie.
+                </p>
+
+                <p>Aliquam rhoncus lectus sed ligula finibus, nec elementum nunc laoreet. 
+                    Quisque ut magna lectus. 
+                    Praesent condimentum ipsum ac magna vulputate, sed euismod purus eleifend. 
+                    Cras malesuada, eros vel vestibulum pulvinar, ante urna luctus magna, tempus tincidunt tortor libero vitae nisl. 
+                    Morbi ullamcorper tellus quis ex bibendum commodo. 
+                    Donec eget sapien sit amet ligula venenatis viverra. 
+                    Nunc congue augue eu viverra mattis. 
+                    Orci varius natoque penatibus et.
+                </p>
+            </div>
+
         </section>
 
         <section>
@@ -30,45 +59,61 @@
 
             <div id="top-animations">
 
-                <div>
+                <article>
                     <h3>The House</h3>
-                    <iframe width="320" height="180"
-                            src="https://www.youtube.com/embed/m7uHNfMZnWA"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                    </iframe>
-                </div>
+                    <div class="video-container">
+                        <iframe
+                                title="The House - Animation"
+                                src="https://www.youtube.com/embed/m7uHNfMZnWA"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </article>
 
-                <div>
+                <article>
                     <h3>Before the storm Partie II</h3>
-                    <iframe width="320" height="180"
-                            src="https://www.youtube.com/embed/jr4wn2DPgx0"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                    </iframe>
-                </div>
+                    <div class="video-container">
+                        <iframe
+                                title="Before the Storm Part 2 - Animation"
+                                src="https://www.youtube.com/embed/jr4wn2DPgx0"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </article>
 
-                <div>
+                <article>
                     <h3>Before the storm Partie I</h3>
-                    <iframe width="320" height="180"
-                            src="https://www.youtube.com/embed/jr4wn2DPgx0"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                    </iframe>
-                </div>
+                    <div class="video-container">
+                        <iframe
+                                title="Before the Storm Part 1 - Animation"
+                                src="https://www.youtube.com/embed/jr4wn2DPgx0"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </article>
 
             </div>
         </section>
     </main>
     <footer>
         
-        <h2>Nos reseaux sociaux :</h2>
-        <a href="https://x.com/Liam07166638" target="_blank"><img class="logos" src="../assets/logos/X_logo.png" alt="Logo Twitter/X"></a>
-        <a href="https://www.instagram.com/linkyam9/" target="_blank"><img class="logos" src="../assets/logos/instagram_logo.png" alt="Logo Instagram"></a>
-        
+        <h2>Nos réseaux sociaux :</h2>
+
+        <ul class="social-network">
+            <li><a href="https://x.com/Liam07166638" target="_blank" rel="noopener noreferrer"><img class="logos" loading="lazy" src="assets/logos/X_logo.png" alt="Logo Twitter/X"></a></li>
+            <li><a href="https://www.instagram.com/linkyam9/" target="_blank" rel="noopener noreferrer"><img class="logos" loading="lazy" src="assets/logos/instagram_logo.png" alt="Logo Instagram"></a></li>
+            <li><a href="https://www.youtube.com/@linkyam9466" target="_blank" rel="noopener noreferrer"><img class="logos" loading="lazy" src="assets/logos/youtube_logo.png" alt="Logo Youtube"></a></li>
+        </ul>
+
     </footer>
 </body>
 </html>

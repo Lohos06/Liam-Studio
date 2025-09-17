@@ -1,0 +1,11 @@
+h1,h2,h3 {
+    margin: 1rem;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 70%;
+}

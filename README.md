@@ -1,6 +1,6 @@
 # Liam-Studio
 
-Projet de site wbe vitrine aux animations de Liam
+Projet de site web vitrine aux animations de Liam Studio
 
 Languages utilisés : 
 

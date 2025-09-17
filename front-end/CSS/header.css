@@ -19,10 +19,3 @@ nav {
     align-items: baseline;
     justify-content: space-between;
 }
-
-a {
-    color: var(--lightBlue);
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bolder;
-}

@@ -12,6 +12,23 @@ section {
     align-items: center;
 }
 
+#Identity {
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#Description {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ProfilPicture {
+    width: 15rem;
+}
+
 #top-animations {
     display: flex;
     flex-direction: column;

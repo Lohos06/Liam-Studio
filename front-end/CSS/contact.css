@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+    width: 70%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 1rem;
+}
+
+#message {
+    height: 200px;
+    padding: 20px;
+}
+
+#submit {
+    width: 100%;
+
+    background-color: var(--red);
+    color: var(--lightBlue);
+
+    padding: 1rem;
+    border-radius: 0.5rem;
+}

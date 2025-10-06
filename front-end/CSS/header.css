@@ -19,3 +19,21 @@ nav {
     align-items: baseline;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 500px) {
+    header {
+    background-image: none;
+    background-color: var(--black);
+
+    height: 238px;
+    padding: 25px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    #Contact {
+        display: none;
+    }
+}
